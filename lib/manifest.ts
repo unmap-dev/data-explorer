@@ -15,8 +15,8 @@ export const MANIFEST: AppManifest = {
     {
       name: "Maps",
       role: {
-        en: "The basemap under your data: any of the fourteen styles, in light or dark, labels in the page's language. Your file is drawn over it in the browser and never uploaded.",
-        fr: "La carte de base sous vos données : l'un des quatorze styles, en clair ou en sombre, étiquettes dans la langue de la page. Votre fichier est dessiné par-dessus dans le navigateur et n'est jamais téléversé.",
+        en: "The basemap under your data: any of the fifteen styles, in light or dark, labels in the page's language. Your file is drawn over it in the browser and never uploaded.",
+        fr: "La carte de base sous vos données : l'un des quinze styles, en clair ou en sombre, étiquettes dans la langue de la page. Votre fichier est dessiné par-dessus dans le navigateur et n'est jamais téléversé.",
       },
       calls: ['<Map apiKey={key} style={style} lang={lang} />', "<GeoJSONLayer data={features} fillPaint={{ \"fill-color\": byAttribute }} />"],
       docs: "https://unmap.dev/docs/apis/maps",

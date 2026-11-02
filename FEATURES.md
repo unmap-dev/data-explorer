@@ -6,7 +6,7 @@ What Data Explorer does, which Unmap API does it, and what it deliberately does 
 
 | Feature | How | Unmap |
 | --- | --- | --- |
-| Basemap | registry `map`, any of the fourteen styles (Muted by default, made for data on top), light or dark with the page, labels in English or French | Maps API (`/styles`, `/tiles`) |
+| Basemap | registry `map`, any of the fifteen styles (Muted by default, made for data on top), light or dark with the page, labels in English or French | Maps API (`/styles`, `/tiles`) |
 | Open a file | a button or a drop anywhere on the page; read in the browser with `File.text()`, never uploaded | — |
 | Validate it | RFC 7946 GeoJSON in WGS 84, up to 25 MB; refused with the reason (en/fr) when it is not JSON, TopoJSON, not GeoJSON, a non-WGS 84 `crs`, projected coordinates, out of range, or a broken shape; features without geometry left out and counted; the open dataset stays when a new file is refused | — |
 | Points, lines and polygons | registry `geojson-layer`: fills with outlines, lines, circles, each filtered to its geometry type, hover highlight | — |
