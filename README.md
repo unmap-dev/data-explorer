@@ -49,8 +49,8 @@ names a `crs` other than WGS 84, has projected coordinates (metres rather than d
 common mistake: reproject with `ogr2ogr -t_srs EPSG:4326`), has a position out of range, or has a
 broken shape (a one-point line, a ring that does not close). The rules are in `lib/geojson.ts`.
 
-Bigger or private data belongs on a server: Unmap's hosted overlays take files up to 5 MB, and
-anything larger is better served as vector tiles. This app deliberately does neither: a public demo
+Bigger or private data belongs on a server: Unmap's hosted overlays take GeoJSON up to 5 MB and
+PMTiles up to 50 MB, so anything larger than a few megabytes is better served as vector tiles. This app deliberately does neither: a public demo
 must not upload a visitor's file with a shared key.
 
 ## Use your own sample
