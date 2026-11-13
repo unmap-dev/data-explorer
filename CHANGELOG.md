@@ -1,5 +1,19 @@
 # @unmap/app-data-explorer
 
+## 0.0.15
+
+### Patch Changes
+
+- @unmap/sdk@0.32.0
+- @unmap/maps@0.32.0
+
+## 0.0.14
+
+### Patch Changes
+
+- @unmap/sdk@0.31.1
+- @unmap/maps@0.31.1
+
 ## 0.0.13
 
 ### Patch Changes
