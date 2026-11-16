@@ -50,7 +50,7 @@ common mistake: reproject with `ogr2ogr -t_srs EPSG:4326`), has a position out o
 broken shape (a one-point line, a ring that does not close). The rules are in `lib/geojson.ts`.
 
 Bigger or private data belongs on a server: Unmap's hosted overlays take GeoJSON up to 5 MB and
-PMTiles up to 50 MB, so anything larger than a few megabytes is better served as vector tiles. This app deliberately does neither: a public demo
+PMTiles up to 100 MB, so anything larger than a few megabytes is better served as vector tiles. This app deliberately does neither: a public demo
 must not upload a visitor's file with a shared key.
 
 ## Use your own sample
