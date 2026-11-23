@@ -1,5 +1,13 @@
 # @unmap/app-data-explorer
 
+## 0.0.20
+
+### Patch Changes
+
+- Updated dependencies [a362b21]
+  - @unmap/sdk@0.35.0
+  - @unmap/maps@0.35.0
+
 ## 0.0.19
 
 ### Patch Changes
