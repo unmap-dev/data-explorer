@@ -5,10 +5,10 @@
  * and Checkbox.
  *
  * Each row names the style layers it controls. An id ending in `*` matches every layer whose id
- * starts with the rest: `overlay_energy.wells_*` catches the circle and label layers the gateway
- * adds for that overlay, and `stations-*` every layer a `<GeoJSONLayer id="stations">` draws. A
- * row with a `filter` gets a checkbox per value of a feature property; unchecking one hides the
- * features that carry it, on top of the layer's own filter.
+ * starts with the rest: `overlay_mining.occurrences_*` catches the circle and label layers the
+ * gateway adds for that overlay, and `stations-*` every layer a `<GeoJSONLayer id="stations">`
+ * draws. A row with a `filter` gets a checkbox per value of a feature property; unchecking one
+ * hides the features that carry it, on top of the layer's own filter.
  *
  * The legend owns the visibility of the layers it names: a checked row makes them visible. State
  * is uncontrolled (`defaultValue`) or controlled (`value` + `onValueChange`), shaped
